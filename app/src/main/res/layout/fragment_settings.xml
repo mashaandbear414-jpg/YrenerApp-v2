@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#08080F">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Настройки"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Language -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ЯЗЫК / LANGUAGE"
+            android:textSize="11sp"
+            android:textColor="#888899"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="6dp">
+
+            <TextView android:id="@+id/lang_ru" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:text="🇷🇺 RU" android:textSize="13sp" android:textColor="#A78BFA" android:gravity="center" android:background="@drawable/btn_primary" android:layout_marginEnd="4dp" android:clickable="true" android:focusable="true"/>
+            <TextView android:id="@+id/lang_en" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:text="🇬🇧 EN" android:textSize="13sp" android:textColor="#FFFFFF" android:gravity="center" android:background="@drawable/glass_card" android:layout_marginStart="4dp" android:layout_marginEnd="4dp" android:clickable="true" android:focusable="true"/>
+            <TextView android:id="@+id/lang_uk" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:text="🇺🇦 UA" android:textSize="13sp" android:textColor="#FFFFFF" android:gravity="center" android:background="@drawable/glass_card" android:layout_marginStart="4dp" android:clickable="true" android:focusable="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <TextView android:id="@+id/lang_uz" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:text="🇺🇿 UZ" android:textSize="13sp" android:textColor="#FFFFFF" android:gravity="center" android:background="@drawable/glass_card" android:layout_marginEnd="4dp" android:clickable="true" android:focusable="true"/>
+            <TextView android:id="@+id/lang_zh" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:text="🇨🇳 CN" android:textSize="13sp" android:textColor="#FFFFFF" android:gravity="center" android:background="@drawable/glass_card" android:layout_marginStart="4dp" android:clickable="true" android:focusable="true"/>
+            <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <!-- Theme -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ТЕМА"
+            android:textSize="11sp"
+            android:textColor="#888899"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout android:id="@+id/theme_dark" android:layout_width="0dp" android:layout_height="70dp" android:layout_weight="1" android:orientation="vertical" android:gravity="center" android:background="#1F1F2E" android:layout_marginEnd="6dp" android:clickable="true" android:focusable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🌑" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Тёмная" android:textSize="11sp" android:textColor="#FFFFFF" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/theme_light" android:layout_width="0dp" android:layout_height="70dp" android:layout_weight="1" android:orientation="vertical" android:gravity="center" android:background="#E8E8F0" android:layout_marginEnd="6dp" android:clickable="true" android:focusable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="☀️" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Светлая" android:textSize="11sp" android:textColor="#111111" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/theme_ocean" android:layout_width="0dp" android:layout_height="70dp" android:layout_weight="1" android:orientation="vertical" android:gravity="center" android:background="#0A1628" android:clickable="true" android:focusable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🌊" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Океан" android:textSize="11sp" android:textColor="#90CDF4" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Account actions -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="АККАУНТ"
+            android:textSize="11sp"
+            android:textColor="#888899"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/glass_card"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout android:id="@+id/btn_my_profile" android:layout_width="match_parent" android:layout_height="54dp" android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="20dp" android:clickable="true" android:focusable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="👤  Мой профиль" android:textSize="14sp" android:textColor="#FFFFFF" android:layout_weight="1"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textSize="20sp" android:textColor="#555566"/>
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#15FFFFFF"/>
+
+            <LinearLayout android:id="@+id/btn_change_pass" android:layout_width="match_parent" android:layout_height="54dp" android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="20dp" android:clickable="true" android:focusable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🔑  Сменить пароль" android:textSize="14sp" android:textColor="#FFFFFF" android:layout_weight="1"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textSize="20sp" android:textColor="#555566"/>
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#15FFFFFF"/>
+
+            <LinearLayout android:id="@+id/btn_logout" android:layout_width="match_parent" android:layout_height="54dp" android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="20dp" android:clickable="true" android:focusable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🚪  Выйти" android:textSize="14sp" android:textColor="#F87171" android:layout_weight="1"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textSize="20sp" android:textColor="#F87171"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- About -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="О ПРИЛОЖЕНИИ"
+            android:textSize="11sp"
+            android:textColor="#888899"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/glass_card">
+
+            <LinearLayout android:id="@+id/btn_tg_channel" android:layout_width="match_parent" android:layout_height="54dp" android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="20dp" android:clickable="true" android:focusable="true">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="14sp" android:textColor="#FFFFFF">
+                </TextView>
+                <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="✈️  Telegram канал" android:textSize="14sp" android:textColor="#FFFFFF"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@Yrener_Soft" android:textSize="12sp" android:textColor="#888899"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textSize="20sp" android:textColor="#555566"/>
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#15FFFFFF"/>
+
+            <LinearLayout android:id="@+id/btn_support_author" android:layout_width="match_parent" android:layout_height="54dp" android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="20dp" android:clickable="true" android:focusable="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⭐  Поддержать автора" android:textSize="14sp" android:textColor="#FFFFFF" android:layout_weight="1"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textSize="20sp" android:textColor="#555566"/>
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#15FFFFFF"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="54dp" android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="20dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ℹ️  Версия приложения" android:textSize="14sp" android:textColor="#FFFFFF" android:layout_weight="1"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="v1.4" android:textSize="12sp" android:textColor="#A78BFA" android:background="#156C63FF" android:paddingHorizontal="10dp" android:paddingVertical="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

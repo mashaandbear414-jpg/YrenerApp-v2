@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yrener</string>
+    <!-- RU -->
+    <string name="welcome">Добро пожаловать</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="login">Войти в аккаунт</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="no_account">Нет аккаунта? Зарегистрироваться</string>
+    <string name="enter_key">Введи ключ доступа</string>
+    <string name="activate">Активировать ключ</string>
+    <string name="get_key">Получить ключ в боте</string>
+    <string name="launch">Запустить Black Russia</string>
+    <string name="home">Главная</string>
+    <string name="faq">FAQ</string>
+    <string name="profile">Профиль</string>
+    <string name="settings">Настройки</string>
+    <string name="support">Написать поддержку</string>
+    <string name="logout">Выйти</string>
+    <string name="version">Версия</string>
+    <string name="active_key">Активный ключ</string>
+    <string name="device">Устройство</string>
+    <string name="reg_date">Дата регистрации</string>
+    <string name="theme">Тема</string>
+    <string name="language">Язык</string>
+    <string name="support_author">Поддержать автора</string>
+    <string name="in_development">В разработке</string>
+    <string name="tg_channel">Telegram канал</string>
+    <string name="tg_bot">Telegram бот</string>
+    <string name="redirect_site">Вы будете перенаправлены на сайт</string>
+    <string name="redirect_sec">Переход через %d сек...</string>
+    <string name="open_site">Открыть сайт</string>
+    <string name="back">Назад</string>
+    <string name="key_active">Ключ активен</string>
+    <string name="key_expired">Ключ истёк</string>
+    <string name="no_key">Нет ключа</string>
+    <string name="time_left">Осталось: %s</string>
+    <string name="checking">Проверяем ключ...</string>
+    <string name="key_ok">Ключ активирован!</string>
+    <string name="key_fail">Ключ недействителен!</string>
+    <string name="game_not_found">Black Russia не установлена!</string>
+    <string name="logging_in">Входим...</string>
+    <string name="login_ok">Вход выполнен!</string>
+    <string name="login_fail">Неверный email или пароль</string>
+    <string name="fill_fields">Заполни все поля</string>
+    <string name="menu_subtitle">МЕНЮ НОВОГО ПОКОЛЕНИЯ</string>
+    <string name="launched">Запущено!</string>
+    <string name="my_profile">Мой профиль</string>
+    <string name="change_password">Сменить пароль</string>
+    <string name="dark_theme">Тёмная</string>
+    <string name="light_theme">Светлая</string>
+    <string name="ocean_theme">Океан</string>
+</resources>

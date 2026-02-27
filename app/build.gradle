@@ -1,0 +1,16 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk 34
+    namespace 'com.yrener.loader'
+    defaultConfig {
+        applicationId 'com.yrener.loader'
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName '1.4'
+    }
+    buildTypes {
+        debug { minifyEnabled false }
+    }
+}
